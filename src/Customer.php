@@ -6,7 +6,7 @@ class Customer {
     {
 
     }
-    public function sayHello(string$name): string
+    public function sayHello(string $name = "guest"): string
     {
         return "hi $name, namaku adalah $this->name" .PHP_EOL;
     }

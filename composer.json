@@ -7,7 +7,14 @@
             "Roisprogrammer\\BelajarComposerLibrary\\": "src/"
         }
     },
+    "repositories": [
+        {
+            "type" : "vcs",
+            "url" : "https://github.com/roism126/belajar-composer-library"
+        }
+    ],
     "require": {
+        
         "php": ">=8.0"
     }
 }

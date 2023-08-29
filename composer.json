@@ -1,0 +1,13 @@
+{
+    "name": "roisprogrammer/belajar-composer-library",
+    "description": "library composer",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Roisprogrammer\\BelajarComposerLibrary\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}
